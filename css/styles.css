@@ -644,11 +644,98 @@ img {
 
 	p {
 		font-size: 14px;
+		line-height: 24px;
 	}
 
-	.news-letter-section {
+	.news-letter-section, .perfect-places-section, .deals-and-discount-section {
 		margin-bottom: 25px;
 		flex-direction: column;
+	}
+
+	.section-tittle h1 {
+		font-size: 20px;;
+	}
+
+	/* deals and discount section */
+
+	.deals-and-discount-section .section-tittle {
+		margin-bottom: 25px;
+	}
+
+	.all-packages-btn {
+		display: none;
+	}
+
+	.deals-and-discount-wrapper-box {
+		min-height: 470px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		align-items: end;
+		padding: 15px;
+		margin-bottom: 15px;
+	}
+
+	.deals-and-discount-content-box {
+		padding: 25px;
+		max-width: auto;
+	}
+
+	.deals-and-discount-tags {
+		margin-bottom: 20px;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+
+	.deals-and-discount-price {
+		font-size: 16px;
+	}
+
+	.deals-and-discount-btn .primary-btn {
+		font-size: 18px;
+	}
+
+	.deals-and-discount-description h2 {
+		font-size: 20px;
+	}
+
+	.deals-and-discount-description p {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		height: 50px;
+	}
+
+	/* perfect places section */
+
+	.perfect-places-content-area h1 {
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 5px;
+	}
+
+	.perfect-places-content-area p {
+		margin-bottom: 15px;
+	}
+
+	.perfect-places-content-area {
+		padding-right: 0;
+		margin-bottom: 25px;
+	}
+
+	.perfect-places-video-area video {
+		width: auto;
+		height: auto;
+	}
+
+	.perfect-places-list {
+		margin-bottom: 25px;
+		padding-right: 0;
+	}
+
+	.perfect-places-list li {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 15px;
 	}
 
 	/* news letter section */
