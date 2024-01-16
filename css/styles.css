@@ -5,13 +5,13 @@
 /* shared styles */
 
 body {
-    max-width: 1440px;
-    margin: 0 auto;
-    font-family: 'Mulish', sans-serif;
+	max-width: 1440px;
+	margin: 0 auto;
+	font-family: 'Mulish', sans-serif;
 }
 
 main {
-    padding: 0 135px;
+	padding: 0 135px;
 }
 
 h1,
@@ -20,42 +20,44 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0;
+	margin: 0;
 }
 
 p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
 }
 
 ul {
-    margin: 0px;
-    padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 li {
-    list-style: none
+	list-style: none
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 img {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 
-/* header section style */
+
+
+/* header section styles */
 
 .header-section {
 	padding: 50px 135px;
 }
 
 .header-section nav {
-    display: flex;
-    justify-content: space-between ;
+	display: flex;
+	justify-content: space-between;
 }
 
 .site-logo {
@@ -67,7 +69,7 @@ img {
 }
 
 .junction {
-    color: #FF5400;
+	color: #FF5400;
 }
 
 .site-logo img {
@@ -77,16 +79,84 @@ img {
 .header-menu {
 	display: flex;
 	gap: 45px;
-    align-items: center;
+	align-items: center;
 }
 
-.header-menu li > a {
+.header-menu li>a {
 	color: #424247;
 	font-size: 18px;
 	font-weight: 400;
-    transition: .3s;
+	transition: .3s;
 }
 
-.header-menu li:hover > a {
-    color: #FF5400;
+.header-menu li:hover>a {
+	color: #FF5400;
+}
+
+
+/* banner section styles */
+
+.banner-section {
+	min-height: 500px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 16px;
+	text-align: center;
+	position: relative;
+}
+
+.banner-section::before {
+	position: absolute;
+	content: "";
+	border-radius: 16px;
+	background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.banner-content {
+	position: relative;
+	z-index: 11;
+}
+
+.banner-tittle {
+	color: #FFF;
+	font-size: 64px;
+	font-weight: 800;
+}
+
+.banner-description {
+	color: #FFF;
+}
+
+.banner-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.30);
+}
+
+.banner-form input,
+#travelling-date,
+#travelling-type {
+	border-radius: 8px;
+	background: #FFF;
+	border: 0;
+	padding: 16px;
+	color: rgba(19, 19, 24, 0.50);
+	font-size: 16px;
+	font-weight: 400;
+	width: 175px;
+}
+
+.banner-search-btn {
+	border-radius: 8px;
+	background: #FF5400;
+	border: 0;
 }
