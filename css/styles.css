@@ -45,3 +45,48 @@ a {
 img {
     max-width: 100%;
 }
+
+
+/* header section style */
+
+.header-section {
+	padding: 50px 135px;
+}
+
+.header-section nav {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.site-logo {
+	display: flex;
+	align-items: center;
+	color: #131318;
+	font-size: 36px;
+	font-weight: 800;
+}
+
+.junction {
+    color: #FF5400;
+}
+
+.site-logo img {
+	margin-right: 15px;
+}
+
+.header-menu {
+	display: flex;
+	gap: 45px;
+    align-items: center;
+}
+
+.header-menu li > a {
+	color: #424247;
+	font-size: 18px;
+	font-weight: 400;
+    transition: .3s;
+}
+
+.header-menu li:hover > a {
+    color: #FF5400;
+}
