@@ -126,7 +126,6 @@ img {
 	display: none;
 }
 
-
 /* banner section styles */
 
 .banner-section {
@@ -625,6 +624,7 @@ img {
 
 /* responsive media query styles */
 
+/* tablet device */
 
 @media screen and (min-width: 577px) and (max-width: 991px) {
 
@@ -640,6 +640,8 @@ img {
 	}
 
 }
+
+/* tablet device */
 
 @media (min-width: 992px) and (max-width: 1200px) {}
 
@@ -684,10 +686,6 @@ img {
 		padding: 20px;
 	}
 
-	.header-section nav {
-		justify-content: flex-start;
-	}
-
 	.site-logo {
 		font-size: 21px;
 	}
@@ -697,26 +695,24 @@ img {
 		width: 34px;
 	}
 
-
 	.check-btn {
-		display: flex;
+		display: block;
 		cursor: pointer;
-		align-items: center;
 		margin-left: auto;
 		font-size: 25px;
 	}
 
 	.header-menu {
+		display: block;
 		position: fixed;
 		width: 100%;
-		height: 100vh;
+		height: 65%;
 		background-color: #FF5400;
-		top: 67px;
+		top: 70px;
 		right: -100%;
 		text-align: center;
 		transition: .5s;
 		z-index: 999;
-		display: block;
 		padding-top: 50px;
 	}
 
@@ -731,15 +727,19 @@ img {
 	}
 
 	.header-menu li:hover a {
+		color: #fff;
+	}
+
+	.header-menu li a:hover {
 		color: #131318;
 	}
 
-	#check:checked ~ .header-menu {
+	#check:checked~.header-menu {
 		right: 0;
 	}
 
 	/* banner section */
-	
+
 	.banner-section {
 		min-height: 480px;
 		margin-bottom: 25px;
@@ -765,11 +765,12 @@ img {
 		min-height: 480px;
 	}
 
-	.banner-form input{
+	.banner-form input {
 		width: 87%;
 	}
 
-	.travelling-date, .travelling-type {
+	.travelling-date,
+	.travelling-type {
 		width: 100%;
 	}
 
