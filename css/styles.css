@@ -395,6 +395,45 @@ img {
 	margin-top: 50px;
 }
 
+/* perfect places section styles */
+
+.perfect-places-section {
+	margin-bottom: 100px;
+	display: flex;
+}
+
+.perfect-places-content-area {
+	padding-right: 30px;
+}
+
+.perfect-places-content-area h1 {
+	color: #131318;
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 60px;
+	margin-bottom: 15px;
+}
+
+.perfect-places-content-area p {
+	color: #5A5A5D;
+	margin-bottom: 25px;
+}
+
+.perfect-places-list {
+	padding-left: 15px;
+	padding-right: 30px;
+	margin-bottom: 30px;
+}
+
+.perfect-places-list li {
+	color: #131318;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 26px;
+	list-style: disc;
+	margin-bottom: 20px;
+}
+
 
 /* news letter section styles */
 
