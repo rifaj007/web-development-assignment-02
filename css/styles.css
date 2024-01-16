@@ -649,7 +649,8 @@ img {
 	.news-letter-section,
 	.perfect-places-section,
 	.deals-and-discount-section,
-	.popular-tours-section {
+	.popular-tours-section,
+	.banner-form {
 		margin-bottom: 25px;
 		flex-direction: column;
 	}
@@ -665,6 +666,45 @@ img {
 	.section-tittle h1 {
 		font-size: 20px;
 		margin-bottom: 10px;
+	}
+
+	/* banner section */
+	
+	.banner-section {
+		min-height: 480px;
+		margin-bottom: 25px;
+	}
+
+	.banner-tittle {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+
+	.banner-form {
+		display: flex;
+		gap: 15px;
+		padding: 15px;
+		margin: 0 25px;
+	}
+
+	.banner-description {
+		margin-bottom: 30px;
+	}
+
+	.banner-section {
+		min-height: 480px;
+	}
+
+	.banner-form input{
+		width: 87%;
+	}
+
+	.travelling-date, .travelling-type {
+		width: 100%;
+	}
+
+	.banner-search-btn {
+		width: 100%;
 	}
 
 	/* popular section */
@@ -876,5 +916,9 @@ img {
 
 	.news-letter-form input {
 		min-width: 90%;
+	}
+
+	.banner-form input {
+		width: 92%;
 	}
 }
