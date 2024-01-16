@@ -116,6 +116,16 @@ img {
 	color: #FF5400;
 }
 
+/* nav bar */
+
+.check-btn {
+	display: none;
+}
+
+#check {
+	display: none;
+}
+
 
 /* banner section styles */
 
@@ -666,6 +676,66 @@ img {
 	.section-tittle h1 {
 		font-size: 20px;
 		margin-bottom: 10px;
+	}
+
+	/* header section */
+
+	.header-section {
+		padding: 20px;
+	}
+
+	.header-section nav {
+		justify-content: flex-start;
+	}
+
+	.site-logo {
+		font-size: 21px;
+	}
+
+	.site-logo img {
+		margin-right: 10px;
+		width: 34px;
+	}
+
+
+	.check-btn {
+		display: flex;
+		cursor: pointer;
+		align-items: center;
+		margin-left: auto;
+		font-size: 25px;
+	}
+
+	.header-menu {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background-color: #FF5400;
+		top: 67px;
+		right: -100%;
+		text-align: center;
+		transition: .5s;
+		z-index: 999;
+		display: block;
+		padding-top: 50px;
+	}
+
+	.header-menu li {
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.header-menu li a {
+		font-size: 20px;
+		color: #fff;
+	}
+
+	.header-menu li:hover a {
+		color: #131318;
+	}
+
+	#check:checked ~ .header-menu {
+		right: 0;
 	}
 
 	/* banner section */
