@@ -655,13 +655,30 @@ img {
 
 
 	.deals-and-discount-section .section-tittle,
-	.why-choose-us-section .section-tittle {
+	.why-choose-us-section .section-tittle, .destination-section, .destination-section .section-tittle {
 		margin-bottom: 25px;
 	}
 
 	.section-tittle h1 {
 		font-size: 20px;
 		margin-bottom: 10px;
+	}
+
+	/* destination section */
+
+	.destination-img-container {
+		flex-direction: column;
+		gap: 15px;
+		margin-bottom: 15px;
+	}
+
+	.destination-img-wrapper img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.desti-img-wrapper-text {
+		font-size: 20px;
 	}
 
 	/* why choose us section */
