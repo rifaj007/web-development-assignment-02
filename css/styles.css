@@ -648,19 +648,52 @@ img {
 
 	.news-letter-section,
 	.perfect-places-section,
-	.deals-and-discount-section {
+	.deals-and-discount-section,
+	.popular-tours-section {
 		margin-bottom: 25px;
 		flex-direction: column;
 	}
 
 
 	.deals-and-discount-section .section-tittle,
-	.why-choose-us-section .section-tittle, .destination-section, .destination-section .section-tittle {
+	.why-choose-us-section .section-tittle,
+	.destination-section,
+	.destination-section .section-tittle {
 		margin-bottom: 25px;
 	}
 
 	.section-tittle h1 {
 		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+	/* popular section */
+
+	.popular-tours-content {
+		width: 100%;
+		margin-bottom: 25px;
+	}
+
+	.popular-tours-img {
+		width: 100%;
+		text-align: center;
+	}
+
+	.popular-tours-list {
+		padding-right: 0;
+		margin-bottom: 20px;
+		margin-top: 20px;
+
+	}
+
+	.popular-tours-description {
+		padding-right: 0;
+		margin-bottom: 25px;
+	}
+
+	.popular-tours-list li {
+		font-size: 14px;
+		line-height: 24px;
 		margin-bottom: 10px;
 	}
 
