@@ -279,6 +279,8 @@ img {
 .why-choose-container {
 	display: flex;
 	gap: 24px;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .why-choose-us-wrapper {
@@ -286,17 +288,28 @@ img {
 	border: 1px solid rgba(251, 181, 99, 0.20);
 	background: rgba(251, 181, 99, 0.05);
 	padding: 32px;
+	max-width: 505px;
+}
+
+.why-choose-us-wrapper-2 {
+	border: 1px solid rgba(41, 206, 246, 0.20);
+	background: rgba(41, 206, 246, 0.05);
+}
+
+.why-choose-us-wrapper-3 {
+	border: 1px solid rgba(233, 68, 68, 0.20);
+	background: rgba(233, 68, 68, 0.05);
 }
 
 .why-choose-icon {
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 .why-choose-us-content h3 {
 	color: #131318;
 	font-size: 24px;
 	font-weight: 800;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .why-choose-us-content p {
@@ -304,6 +317,83 @@ img {
 	margin-bottom: 0;
 }
 
+/* deals and discount section styles */
+
+.deals-and-discount-section {
+	margin-bottom: 100px;
+}
+
+.deals-and-discount-section .section-tittle {
+	margin-bottom: 50px;
+}
+
+.deals-and-discount-wrapper-box {
+	min-height: 390px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: flex-end;
+	padding: 55px;
+	border-radius: 16px;
+	margin-bottom: 25px;
+}
+
+.deals-and-discount-wrapper-box-2 {
+	justify-content: flex-start;
+}
+
+.deals-and-discount-content-box {
+	border-radius: 16px;
+	border: 2px solid #FFF;
+	background: rgba(255, 255, 255, 0.80);
+	backdrop-filter: blur(2.5px);
+	padding: 50px;
+	max-width: 476px;
+}
+
+.deals-and-discount-tags {
+	display: flex;
+	gap: 24px;
+	margin-bottom: 25px;
+}
+
+.single-tag h6 {
+	color: #5A5A5D;
+	font-size: 16px;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.single-tag span {
+	color: #FF5400;
+	font-size: 24px;
+	display: inline-block;
+}
+
+.deals-and-discount-description h2 {
+	color: #131318;
+	font-size: 24px;
+	font-weight: 800;
+	margin-bottom: 10px;
+}
+
+.deals-and-discount-description p {
+	color: #5A5A5D;
+}
+
+.deals-and-discount-price {
+	color: #FF5400;
+	font-size: 20px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+
+.all-packages-btn {
+	margin-top: 50px;
+}
 
 
 /* news letter section styles */
