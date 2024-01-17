@@ -624,6 +624,23 @@ img {
 	main {
 		padding: 0 40px;
 	}
+	
+	.perfect-places-section, .news-letter-section,.deals-and-discount-wrapper-box, .popular-tours-section {
+		flex-direction: column;
+	}
+
+	.banner-section {
+		margin-bottom: 70px;
+	}
+
+	.primary-btn {
+		font-size: 18px;
+	}
+
+	.section-tittle h1 {
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
 
 	/* header section */
 
@@ -651,7 +668,7 @@ img {
 		display: block;
 		position: fixed;
 		width: 100%;
-		height: 65%;
+		height: 70%;
 		background-color: #FF5400;
 		top: 110px;
 		right: -100%;
@@ -693,17 +710,71 @@ img {
 		margin-bottom: 40px;
 		padding: 0 75px;
 	}
-	
+
 	.banner-form {
 		flex-wrap: wrap;
 		margin: 0 25px;
 	}
 
+	/* popular tours section */
+
+	.popular-tours-content {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.popular-tours-img {
+		width: 100%;
+		text-align: center;
+	}
+
+	/* choose your destination section */
+
+	.desti-img-wrapper-text {
+		font-size: 20px;
+	}
+
+	/* perfect place section */
+
+	.perfect-places-content-area {
+		padding-right: 0;
+		margin-bottom: 50px;
+	}
+
+	.perfect-places-video-area iframe {
+		width: 100%;
+	}
+
+	/* news letter section */
+
+	.news-letter-thumb img {
+		width: 100%;
+	}
+
+	.discount-banner span {
+		font-size: 18px;
+	}
+
+	.discount-banner h2 {
+		font-size: 25px;
+	}
+
+	.news-letter-form input {
+		min-width: 90%;
+	}
+
+	.news-letter-submit {
+		width: 97%;
+	}
+
 	/* footer section */
 
 	.footer-section {
-		background: rgba(19, 19, 24, 0.05);
-		padding: 70px 50px;
+		padding: 70px 40px;
+	}
+
+	.footer-logo .site-logo {
+		margin-bottom: 20px;
 	}
 
 	.footer-social-link {
