@@ -195,13 +195,13 @@ img {
 	width: 175px;
 }
 
-.travelling-date,
+/* .travelling-date,
 .travelling-type {
 	appearance: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	position: relative;
-}
+} */
 
 .banner-search-btn {
 	border-radius: 8px;
