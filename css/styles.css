@@ -727,7 +727,7 @@ img {
 	.perfect-places-section,
 	.news-letter-section,
 	.deals-and-discount-wrapper-box,
-	.popular-tours-section {
+	.popular-tours-section,.review-wrapper-container {
 		flex-direction: column;
 	}
 
@@ -912,7 +912,7 @@ img {
 	.deals-and-discount-section .section-tittle,
 	.why-choose-us-section .section-tittle,
 	.destination-section,
-	.destination-section .section-tittle {
+	.destination-section .section-tittle ,.customers-review-section .section-tittle{
 		margin-bottom: 25px;
 	}
 
@@ -1126,6 +1126,20 @@ img {
 		overflow: hidden;
 		text-overflow: ellipsis;
 		height: 50px;
+	}
+
+	/* customers review sectio */
+
+	.customers-review-section {
+		margin-bottom: 40px;
+	}
+
+	.review-wrapper-container {
+		flex-direction: column;
+	}
+
+	.review-wrapper {
+		padding: 25px;
 	}
 
 	/* perfect places section */
