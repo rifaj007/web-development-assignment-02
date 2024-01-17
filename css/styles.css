@@ -169,6 +169,7 @@ img {
 .banner-description {
 	color: #FFF;
 	margin-bottom: 50px;
+	padding: 0 220px;
 }
 
 .banner-form {
@@ -201,18 +202,6 @@ img {
 	-moz-appearance: none;
 	position: relative;
 }
-
-/* 
-.travelling-date::after {
-	position: absolute;
-	content: '\f107';
-	right: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: #333;
-	color: #333;
-} */
 
 .banner-search-btn {
 	border-radius: 8px;
@@ -335,7 +324,7 @@ img {
 	border: 1px solid rgba(251, 181, 99, 0.20);
 	background: rgba(251, 181, 99, 0.05);
 	padding: 32px;
-	max-width: 505px;
+	max-width: 495px;
 }
 
 .why-choose-us-wrapper-2 {
@@ -718,7 +707,7 @@ img {
 
 	.header-menu li {
 		display: block;
-		margin-bottom: 15px;
+		margin-bottom: 20px;
 	}
 
 	.header-menu li a {
@@ -745,6 +734,10 @@ img {
 		margin-bottom: 25px;
 	}
 
+	.banner-content {
+		padding: 30px 0;
+	}
+
 	.banner-tittle {
 		font-size: 22px;
 		margin-bottom: 10px;
@@ -759,10 +752,7 @@ img {
 
 	.banner-description {
 		margin-bottom: 30px;
-	}
-
-	.banner-section {
-		min-height: 480px;
+		padding: 0 20px;
 	}
 
 	.banner-form input {
@@ -903,9 +893,9 @@ img {
 		margin-bottom: 25px;
 	}
 
-	.perfect-places-video-area video {
-		width: auto;
-		height: auto;
+	.perfect-places-video-area iframe {
+		width: 100%;
+		height: 200px;
 	}
 
 	.perfect-places-list {
@@ -991,5 +981,10 @@ img {
 
 	.banner-form input {
 		width: 92%;
+	}
+
+	.perfect-places-video-area iframe {
+		width: 100%;
+		height: 300px;
 	}
 }
